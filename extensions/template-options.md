@@ -1,8 +1,8 @@
 # Template Options
 
-Support template data **options** by adding property attribute with an array of **prompts** and **values**. Additionally add a **multiple** property, which indicates multiple values are suppored if set to "true".
+Support template data **options** by adding property attribute with an array of **text** and **values**. Additionally add a **multiple** property, which indicates multiple values are suppored if set to "true".
 
-1. Add an optional property to the <code>data</code> object: option (array of objects. prompt/value pair)
+1. Add an optional property to the <code>data</code> object: option (array of objects. text/value pair)
 2. Add an optional property to the <code>data</code> object: multiple (boolean). This property has no impact if option property is not set.
 
 
