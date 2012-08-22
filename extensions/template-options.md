@@ -15,8 +15,8 @@ Support template data **options** by adding property attribute with an array of 
     "template" : {
       "data" : [
         { "name" : "username", "value" : "", "prompt" : "User name", "required" : "true" },
-        { "name" : "country", "value" : "", "prompt" : "Country", "multiple" : "false",  "options" : [ { "prompt" : "Germany", "value" : "de" }, { "prompt" : "Poland", "value" : "pl" } ] },
-        { "name" : "talents", "value" : "", "prompt" : "Talents", "required" : "true", "multiple" : "true",  "options" : [ { "prompt" : "Swimming", "value" : "swimming" }, { "prompt" : "Climbing", "value" : "climbing" }, { "prompt" : "Socializing", "value" : "socializing" } ] }
+        { "name" : "country", "value" : "", "prompt" : "Country", "multiple" : "false",  "options" : [ { "text" : "Germany", "value" : "de" }, { "text" : "Poland", "value" : "pl" } ] },
+        { "name" : "talents", "value" : "", "prompt" : "Talents", "required" : "true", "multiple" : "true",  "options" : [ { "text" : "Swimming", "value" : "swimming" }, { "text" : "Climbing", "value" : "climbing" }, { "text" : "Socializing", "value" : "socializing" } ] }
       ]
     }
   }
