@@ -39,7 +39,7 @@ When **multiple** is set to "true" then the values should be returned following 
         "data" : [
           {"name" : "username", "value" : "J. Doe", "prompt" : "User name"},
           {"name" : "country", "value" : "Germany", "prompt" : "Country"},
-          {"name" : "talents", "array" : ['swimming', 'climbing'], "prompt" : "Talents"}
+          {"name" : "talents", "array" : ["swimming", "climbing"], "prompt" : "Talents"}
         ],
       }
     ],
