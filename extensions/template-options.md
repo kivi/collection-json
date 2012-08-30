@@ -42,9 +42,9 @@ When **multiple** is set to "true" then the values should be returned following 
           {"name" : "username", "value" : "JDoe", "prompt" : "User name"},
           {"name" : "country", "value" : "Germany", "prompt" : "Country"},
           {"name" : "talents", "array" : ["swimming", "climbing"], "prompt" : "Talents"}
-        ],
+        ]
       }
-    ],
+    ]
   }
 }
 ```
